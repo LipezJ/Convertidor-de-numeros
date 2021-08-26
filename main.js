@@ -49,10 +49,10 @@ function binario() {
 
  //resultado
     document.getElementById("result").innerHTML = result;
-        
     }
+
  //BINARIO A DECIMAL
-    if (xd1 == "binario a decimal") {
+    if (xd1 == "binario a un decimal") {
         
         xdv = xd.toString();
         xdv = xdv.split("");
@@ -68,20 +68,19 @@ function binario() {
             v3 = v1 * v2;
 
             v4 = v3 + v4;
-            beta = v4;
             
             n = n + 1;
             v = v + 1;
             xdf = xdf - 1;
 
             if (xdf == 0) {
-                result = beta;
-                document.getElementById("result").innerHTML = result;
+                result = v4;
+                document.getElementById("result").innerHTML = result; 
                 break;
             }
         }
-        
     }
+    
 
  //limpieza
     xd = 0;

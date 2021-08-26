@@ -20,7 +20,7 @@ form{
     margin: 0px 110px;
     width: 180px;
     height: 30px;
-    padding-left: 35px;
+    padding-left: 27px;
     border-radius: 20px;
     border-color: rgb(25, 43, 43);
 }
@@ -48,7 +48,7 @@ form{
         height: 100px;
         background-color: darkslategray;
         margin: auto;
-        margin-top: 60pxpx;
+        margin-top: 60px;
         border-radius: 15px;
         border: solid rgb(25, 43, 43) 3px;
     }
@@ -62,10 +62,10 @@ form{
         border-color: rgb(25, 43, 43);
     }
     #dato1{
-        margin: 0px 30px;
-        width: 140px;
+        margin: 0px 20px;
+        width: 160px;
         height: 17px;
-        padding-left: 12px;
+        padding-left: 14px;
         border-radius: 20px;
         border-color: rgb(25, 43, 43);
     }
@@ -84,7 +84,7 @@ form{
         margin: auto;
         border-color: rgb(25, 43, 43);
         border-radius: 30px;
-        padding: 0px 9px;
+        padding: 0px 7px;
     }
 
 }
